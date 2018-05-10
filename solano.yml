@@ -1,7 +1,9 @@
 php:
   version: '5.6'
 hooks:
-  pre_setup: cd helloworldwebapp && composer.phar install
+  pre_setup:
+    - cd helloworldwebapp
+    - composer.phar install
 cache:
   key_paths:
     - composer.json
@@ -15,4 +17,4 @@ tests:
     command: vendor/bin/solano-phpunit
     config: phpunit.xml
     files:
-      - phpunit/**Test.php
+      - tests/Unit/**Test.php

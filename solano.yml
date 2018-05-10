@@ -12,7 +12,7 @@ tests:
   - type: phpunit
     mode: parallel
     output: exit-status
-    command: helloworldwebapp/vendor/bin/phpunit
+    command: helloworldwebapp/vendor/bin/solano-phpunit
     config: helloworldwebapp/phpunit.xml
     files:
       - helloworldwebapp/tests/Unit/**Test.php

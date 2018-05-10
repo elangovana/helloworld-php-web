@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "6c32f993d3d4a0e1a84f63c00e8e00f2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3320,6 +3320,52 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "solano/solano-phpunit",
+            "version": "v0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/solanolabs/solano-phpunit.git",
+                "reference": "4f6ee9e1fadb3a479cc2d999dd862422722d4923"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/solanolabs/solano-phpunit/zipball/4f6ee9e1fadb3a479cc2d999dd862422722d4923",
+                "reference": "4f6ee9e1fadb3a479cc2d999dd862422722d4923",
+                "shasum": ""
+            },
+            "require": {
+                "phpunit/phpunit": "^4.0|^5.0"
+            },
+            "bin": [
+                "solano-phpunit"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Isaac Chapman",
+                    "email": "isaac@solanolabs.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "Parallel testing for Solano CI",
+            "homepage": "https://www.solanolabs.com/",
+            "keywords": [
+                "ci",
+                "concurrent",
+                "parallel",
+                "phpunit",
+                "solano",
+                "testing"
+            ],
+            "time": "2017-06-08T18:38:02+00:00"
         },
         {
             "name": "symfony/yaml",

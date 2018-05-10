@@ -1,14 +1,14 @@
 php:
   version: '5.6'
 hooks:
-  boot: cd helloworldwebapp
+  early: cd helloworldwebapp
   pre_setup: composer.phar install
-cache:
-  key_paths:
-    - composer.json
-    - composer.lock
-  save_paths:
-    - vendor
+# cache:
+#   key_paths:
+#     - composer.json
+#     - composer.lock
+#   save_paths:
+#     - vendor
 tests:
   - type: phpunit
     mode: parallel

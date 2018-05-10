@@ -1,7 +1,7 @@
 php:
   version: '5.6'
 hooks:
-  pre_setup: composer.phar install
+  pre_setup: cd helloworldwebapp && composer.phar install
 cache:
   key_paths:
     - composer.json

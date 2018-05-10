@@ -6,8 +6,8 @@ hooks:
     - composer.phar install
 cache:
   key_paths:
-    - composer.json
-    - composer.lock
+    - helloworldwebapp/composer.json
+    - helloworldwebapp/composer.lock
   save_paths:
     - vendor
 tests:

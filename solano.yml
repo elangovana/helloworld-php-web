@@ -2,12 +2,12 @@ php:
   version: '5.6'
 hooks:
   pre_setup: composer.phar install -d helloworldwebapp
-# cache:
-#   key_paths:
-#     - composer.json
-#     - composer.lock
-#   save_paths:
-#     - vendor
+cache:
+  key_paths:
+    - helloworldwebapp/composer.json
+    - helloworldwebapp/composer.lock
+  save_paths:
+    - helloworldwebapp/vendor
 tests:
   - type: phpunit
     mode: parallel

@@ -2,7 +2,7 @@ php:
   version: '5.6'
 hooks:
   pre_setup: composer.phar install -d helloworldwebapp
-  post_build: tar -czvf $HOME/results/$TDDIUM_SESSION_ID/session/helloworldwebapptar.gz  helloworldwebapp
+  post_build: mv helloworldwebapp .. && rm -rf helloworld-php-web
 cache:
   key_paths:
     - helloworldwebapp/composer.json

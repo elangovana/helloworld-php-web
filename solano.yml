@@ -2,7 +2,7 @@ php:
   version: '5.6'
 hooks:
   pre_setup: composer.phar install -d helloworldwebapp
-  post_build: cp -r helloworldwebapp/* . && rm -r helloworldwebapp
+  post_build: cp -r helloworldwebapp/ . && rm -r helloworldwebapp
 cache:
   key_paths:
     - helloworldwebapp/composer.json

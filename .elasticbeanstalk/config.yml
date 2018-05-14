@@ -10,7 +10,7 @@ global:
   application_name: helloworldwebapp
   branch: null
   default_ec2_keyname: beanstalk
-  default_platform: PHP 7.1
+  default_platform: 64bit Amazon Linux 2017.09 v2.6.6 running PHP 7.1
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null

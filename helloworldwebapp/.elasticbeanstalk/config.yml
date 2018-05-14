@@ -1,0 +1,22 @@
+branch-defaults:
+  develop:
+    environment: helloworldwebapp-dev
+  master:
+    environment: helloworldwebapp-master-dev
+    group_suffix: helloworld
+deploy:
+  artifact: helloworldwebapp.zip
+global:
+  application_name: helloworldwebapp
+  branch: null
+  default_ec2_keyname: beanstalk
+  default_platform: 64bit Amazon Linux 2017.09 v2.6.6 running PHP 7.1
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: git
+  workspace_type: Application

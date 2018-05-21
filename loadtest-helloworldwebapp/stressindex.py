@@ -7,8 +7,8 @@ class HomePageTastSet(TaskSet):
 
     @task
     def test_movies(self):
-        self.client.get("/movies.php")
-        
+        self.client.get("/quotes.php")
+
 class MyLocust(HttpLocust):
     task_set = HomePageTastSet
     min_wait = 5000

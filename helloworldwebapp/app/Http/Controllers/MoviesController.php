@@ -14,7 +14,12 @@ class MoviesController extends Controller {
         $movie = new Movies();
         $movie->name ="Hello";
         $movies[] = $movie;
-
+        $movie = new Movies();
+        $movie->name ="Spain";
+        $movies[] = $movie;
+        $movie = new Movies();
+        $movie->name ="Magic monkey";
+        $movies[] = $movie;
         return View::make('movies.index', compact('movies'));
     }
 

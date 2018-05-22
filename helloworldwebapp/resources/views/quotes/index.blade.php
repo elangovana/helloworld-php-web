@@ -8,7 +8,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Quotes</h1>
-        <p>May the Force be with you.</p>
+        <p>May the Force be with you. New Version</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">More &raquo;</a></p>
       </div>
     </div>

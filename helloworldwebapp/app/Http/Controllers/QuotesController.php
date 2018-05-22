@@ -25,7 +25,8 @@ class QuotesController extends Controller {
           $quotes[] = $quote;
         }
 
-
+        //Simulate slow page.. Sleep for 5 seconds
+        sleep(5);
         return View::make('quotes.index', compact('quotes'));
     }
 
